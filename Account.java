@@ -19,6 +19,13 @@ public class Account {
 		this.type = type;
 	}
 	
+	Account(int accountNumber,String accountHolderName){
+		this.accountNumber = accountNumber;
+		this.accountHolderName = accountHolderName;
+		this.balance = 5000;
+		this.type = "CurrentAccount";
+	}
+	
 	public int getAccountNumber() {
 		return accountNumber;
 	}
