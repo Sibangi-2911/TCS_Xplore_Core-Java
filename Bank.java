@@ -41,6 +41,7 @@ public class Bank {
 		
 	}
 	
+	//Method overloading
 	public double calculateInterest(double principal, float rateOfInterest) {
 		double principalAfterInterest;
 		principalAfterInterest = principal + principal*rateOfInterest/100;
